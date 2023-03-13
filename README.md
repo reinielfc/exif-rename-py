@@ -35,6 +35,10 @@ The `exif_rename.py` script takes several command-line arguments, which are desc
     - `tz <timezone>`: add timezone, default `"US/Eastern"` (requires iso format)
     - `epoch`: convert date to epoch (requires iso format)
   - `int` convert to integer
+  - `prefix <string>`: prefix tag with `string`
+  - `suffix <string>`: suffix tag with `string`
+  - `replace <old> <new> <count>`: replace ocurrences of `old` in tag with `new` `count` times
+    - `<count>` default is -1 (all occurrences)
 - `-n, --dry-run`: Do not rename files. Instead, print a list of the changes that would be made.
 
 ### Example Usage
