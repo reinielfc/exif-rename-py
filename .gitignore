@@ -1,0 +1,22 @@
+# PyCharm
+.idea
+*.iml
+*.pydevproject
+
+# Pipenv
+.venv
+.env
+
+# PyInstaller
+dist
+build
+*.pyc
+*.spec
+
+# Python
+__pycache__/
+*py[cod]
+
+# Other
+*.log
+*.swp
